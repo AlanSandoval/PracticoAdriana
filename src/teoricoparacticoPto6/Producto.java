@@ -4,7 +4,7 @@ package teoricoparacticoPto6;
  *
  * @author AlanSandoval
  */
-public class Producto implements IProducto{
+public class Producto {
     String idPrducto,nombre;
     int precio;
     
@@ -38,16 +38,6 @@ public class Producto implements IProducto{
 
     public void setPrecio(int precio) {
         this.precio = precio;
-    }
-
-    @Override
-    public Producto ObtenerProduco() {
-      return null;
-    }
-
-    @Override
-    public Producto CargarProducto() {
-       return null;
     }
 
     public Producto() {

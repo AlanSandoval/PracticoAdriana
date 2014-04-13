@@ -15,6 +15,7 @@ public class Principal {
     {
         Singleton.getInstancia().CargarProducto("1","Galletitas",20);
         Singleton.getInstancia().CargarProducto("2","Harina",60);
+        Singleton.getInstancia().CargarProducto("3","Gaseosas",10);
         Singleton.getInstancia().MostrarProducto();
     }
 }
