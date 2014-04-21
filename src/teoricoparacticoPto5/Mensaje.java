@@ -10,16 +10,16 @@ package teoricoparacticoPto5;
  *
  * @author AlanSandoval
  */
-public class Asunto extends AgregoDatos{
+public class Mensaje extends AgregoDatos{
 
-    public Asunto(Email email) {
+    public Mensaje(Email email) {
         super(email);
     }
-   
+
     
     @Override
     public String getDescripcion() {
-        return email.getDescripcion()+"Inserte Asunto"+ "\n";
+        return email.getDescripcion()+"Este email es para corroborar que puedo enviar Email"+"\n";
     }
     
 }

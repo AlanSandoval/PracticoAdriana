@@ -19,7 +19,7 @@ public class Firma extends AgregoDatos{
     @Override
     public String getDescripcion() {
         //Agrego mas datos, Wrapper
-        return email.getDescripcion()+" Firma Alan Sandoval";
+        return email.getDescripcion()+"Firma Alan Sandoval";
     }
     
     
