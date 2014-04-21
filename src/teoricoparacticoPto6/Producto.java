@@ -6,8 +6,7 @@ package teoricoparacticoPto6;
  */
 public class Producto {
     String idPrducto,nombre;
-    int precio;
-    
+    int precio;   
     
     public Producto(String idProducto,String nombre,int precioProd)
     {
