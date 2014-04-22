@@ -14,7 +14,7 @@ public class CrearEmail extends Email{
 
     @Override
     public String getDescripcion() {
-        return "Creo Email";
+        return "Creo Email para Mi "+"\n";
     }
     
     

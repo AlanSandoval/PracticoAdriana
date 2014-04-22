@@ -14,7 +14,7 @@ public class EnviarEmail extends Email{
 
     @Override
     public String getDescripcion() {
-        return "Envio Email" + "\n";
+        return "Envio Email al Correo de Pol " + "\n";
     }
     
     

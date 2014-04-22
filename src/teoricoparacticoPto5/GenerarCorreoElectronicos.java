@@ -23,12 +23,14 @@ public class GenerarCorreoElectronicos {
        this.email = new Asunto(email);
        this.email = new Mensaje(email);
        this.email = new Firma(email);
+        System.out.println(this.email.getDescripcion());
            
     }
     
     public void EnviarEmail()
     {
        this.email = new EnviarEmail();
+       System.out.println(this.email.getDescripcion());
     }
     
 
