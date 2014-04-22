@@ -14,12 +14,17 @@ public class Cliente {
 
     public static void main (String args[])
     {
+       GenerarCorreoElectronicos generar= new GenerarCorreoElectronicos();
+       generar.CrearEmail();
+       generar.EnviarEmail();
+        
+        /*
        Email email = new EnviarEmail();
        email = new Asunto(email);
        email = new Mensaje(email);
        email = new Firma(email);
        System.out.println(email.getDescripcion());
-       
+       */
     }
     
 }
