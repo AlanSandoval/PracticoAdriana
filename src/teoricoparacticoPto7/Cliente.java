@@ -6,15 +6,19 @@
 
 package teoricoparacticoPto7;
 
+import javafx.beans.InvalidationListener;
+import javafx.beans.Observable;
+
 /**
  *
  * @author AlanSandoval
  */
-public class Cliente  {
+public class Cliente {
     public static void main (String args[])
     {
         Verificadora v= new Verificadora();
         Controlador c= new Controlador(new Activo());
+        c.addObserver(v);
         v.AddEspaciosAereos(new EspacioAereos(c));
         c.setE(new Inactivo());
         v.AddEspaciosAereos(new EspacioAereos(c));
@@ -23,5 +27,6 @@ public class Cliente  {
         
         
    }
+
     
 }

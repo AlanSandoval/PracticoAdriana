@@ -1,11 +1,14 @@
 
 package teoricoparacticoPto7;
 
+import java.util.Observable;
+import java.util.Observer;
+
 /**
  *
  * @author AlanSandoval
  */
-public class Controlador {
+public class Controlador extends Observable{
 
     Estados e;
 
@@ -14,6 +17,8 @@ public class Controlador {
 
     public Controlador(Estados e) {
         this.e = e;
+        
+        
     }    
     
     public Estados getE() {
@@ -23,7 +28,9 @@ public class Controlador {
 
     public void setE(Estados e) {
         this.e = e;
-    
+        setChanged();
+        notifyObservers();
     }
+
     
 }

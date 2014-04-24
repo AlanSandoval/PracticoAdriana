@@ -10,7 +10,7 @@ package teoricoparacticoPto7;
  *
  * @author AlanSandoval
  */
-public class Activo implements Estados
+public class Activo implements Estados 
 {    
 
     public Activo()

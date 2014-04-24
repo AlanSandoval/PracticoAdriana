@@ -6,6 +6,8 @@
 
 package teoricoparacticoPto7;
 
+import javafx.beans.InvalidationListener;
+
 /**
  *
  * @author AlanSandoval
@@ -24,6 +26,7 @@ public class Asignado implements Estados{
     public String getEstado() {
         return "Esta Asignado";
     }
+
     
     
 }

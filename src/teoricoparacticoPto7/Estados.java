@@ -12,7 +12,7 @@ import javafx.beans.Observable;
  *
  * @author AlanSandoval
  */
-public interface Estados{    
+public interface Estados {    
     public abstract String getEstado();
     
 }
