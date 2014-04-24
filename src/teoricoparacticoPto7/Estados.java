@@ -4,16 +4,15 @@
  * and open the template in the editor.
  */
 
-package teoricoparacticoPto5;
+package teoricoparacticoPto7;
+
+import javafx.beans.Observable;
 
 /**
  *
  * @author AlanSandoval
  */
-public abstract class Email {
-
-    public Email() {
-    }    
-    public abstract String getDescripcion();
+public interface Estados{    
+    public abstract String getEstado();
     
 }

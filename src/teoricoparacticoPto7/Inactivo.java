@@ -4,16 +4,20 @@
  * and open the template in the editor.
  */
 
-package teoricoparacticoPto5;
+package teoricoparacticoPto7;
 
 /**
  *
  * @author AlanSandoval
  */
-public abstract class Email {
+public class Inactivo implements Estados{
 
-    public Email() {
-    }    
-    public abstract String getDescripcion();
+    public Inactivo() {
+    }
+
+    @Override
+    public String getEstado() {
+        return "Esta Inactivo";
+    }
     
 }
